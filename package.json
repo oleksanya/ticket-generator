@@ -1,0 +1,12 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
+    "build": "tailwindcss -i ./input.css -o ./css/style.css"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

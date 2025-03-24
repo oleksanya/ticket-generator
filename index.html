@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="./css/style.css" rel="stylesheet">
+
+  <title>Frontend Mentor | Conference ticket generator</title>
+</head>
+<body>
+  <main id="main" 
+    class="z-0 pb-28 w-full min-h-screen relative bg-[url('../assets/images/background-mobile.png')] md:bg-[url('../assets/images/background-tablet.png')]
+    lg:bg-[url('../assets/images/background-desktop.png')]
+    bg-cover bg-no-repeat bg-bottom
+    ">
+
+    <div class="w-full h-full bg-cover bg-[url('../assets/images/pattern-lines.svg')]">
+      <div class="flex justify-center pt-8">
+        <img src="/assets/images/logo-full.svg" class="h-5" alt="logo">
+      </div>
+
+    <!-- Form container -->
+    <form id="ticket-form">
+      <div class="flex justify-center flex-col items-center">
+        <h2 class="text-white font-bold text-2xl text-center w-5/6 mt-6 ">Your Journey to Coding <br> Conf 2025 Starts Here!</h2>
+
+        <p class="text-neutral-300 text-center w-4/5 mt-5 leading-5">Secure your spot at next year's biggest coding conference.</p>
+
+    <!-- Upload avatar images container-->
+        <div class="mt-8 w-5/6 max-w-[23rem] min-w-[20rem]">
+    <!-- Upload avatar images field -->
+          <label for="avatar-upload" class="block text-white text-sm font-medium mb-2">Upload Avatar</label>
+          
+          <div id="drop-area" tabindex="0" class="flex flex-col justify-center items-center p-5 rounded-xl dashed-border bg-neutral-700 bg-opacity-30 focus:border-[1px] focus:border-neutral-300 hover:cursor-pointer" >
+            <input type="file" id="avatar-upload" class="hidden" accept="image/*" />
+
+            <div class="bg-neutral-700 flex items-center justify-center rounded-xl border-2 border-opacity-25 border-neutral-500 bg-opacity-70 w-12 h-12">
+              <img id="avatar-preview" src="./assets/images/icon-upload.svg" alt="Upload Icon" class="default-image" />
+            </div>
+
+            <p class="text-gray-300 mt-4">Drag and drop or click to upload</p>
+
+            <div class="button-wrapper">
+              <button type="button" class="remove-btn bg-neutral-700 bg-opacity-70 rounded-sm px-2 py-1 text-sm text-neutral-100 font-light">Remove image</button>
+
+              <button type="button" class="change-btn">Change image</button>
+            </div>
+          </div>
+
+          <div class="info-image-message flex gap-2 items-center mt-2">
+            <img src="/assets/images/icon-info.svg" alt="Info icon">
+
+            <p class="text-xs text-gray-400">
+              Upload your photo (JPG or PNG, max size: 500KB).
+            </p>
+          </div>
+
+          <div class="error-message file-message hidden">
+            <p><span class="mr-2">ⓘ</span>File is too large. Please upload a photo under 500KB.</p>
+          </div>
+
+        </div>
+
+        <div class="input-wrapper">
+          <label for="name" id="name-label">Full Name</label>
+
+          <input type="text" name="name" id="name" aria-labelledby="name-label" required >
+        </div>
+
+        <div class="input-wrapper email-input">
+          <label for="email" id="email-label">Email Address</label>
+
+          <input type="text" name="email" id="email" placeholder="example@email.com" aria-labelledby="email-label" required>
+
+          <div class="error-message email-message hidden">
+            <p><span>ⓘ</span> Please enter a valid email address</p>
+          </div>
+        </div>
+
+        <div class="input-wrapper">
+          <label for="username" id="username-label">GitHub Username</label>
+
+          <input type="text" name="username" id="username" placeholder="@yourusername" aria-labelledby="username-label" required>
+        </div>
+        
+        <button class="w-5/6 max-w-[23rem] min-w-[20rem] px-2 py-3 mt-6 bg-orange-500 text-neutral-900 font-bold rounded-xl hover:bg-orange-700 focus:outline focus:outline-2 focus:outline-offset-2 outline-neutral-300" type="submit">Generate My Ticket</button>
+
+      </div>
+    </form>
+
+    <div id="ticket-success">
+      
+    </div>
+  </div>
+
+    <!-- Background images -->
+    <div class="z-[-1] absolute h-full w-full top-0">
+      <img src="./assets/images/pattern-circle.svg" class="w-24 h-24  md: absolute top-1/2 right-[-2rem] bottom-1/2 md:right-[10%] lg:h-36 lg:top-2/5 lg:w-36 lg:right-1/4" alt="Lines pattern">
+      <img src="./assets/images/pattern-squiggly-line-top.svg" class="absolute right-0 top-5 h-10 md:h-24 " alt="Lines pattern">
+      <img src="./assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg" class="absolute bottom-0 w-2/3 block md:w-2/5 lg:hidden" alt="Lines pattern">
+      <img src="./assets/images/pattern-squiggly-line-bottom-desktop.svg" class="absolute bottom-0 w-3/5 hidden lg:block" alt="Lines pattern">
+    </div>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
