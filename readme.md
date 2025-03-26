@@ -34,7 +34,6 @@ Users should be able to:
 
 ![1](https://github.com/user-attachments/assets/4c678dc5-d34d-4e7a-8149-c5ea9557e27a)
 
-
 ![2](https://github.com/user-attachments/assets/8860a1b3-00fa-4938-9f0e-82e5fe316ec7)
 
 ![3](https://github.com/user-attachments/assets/cb898bf2-aa34-4adf-ba2d-ac2844753b0d)
