@@ -37,15 +37,21 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![1](https://github.com/user-attachments/assets/4c678dc5-d34d-4e7a-8149-c5ea9557e27a)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+![2](https://github.com/user-attachments/assets/8860a1b3-00fa-4938-9f0e-82e5fe316ec7)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+![3](https://github.com/user-attachments/assets/cb898bf2-aa34-4adf-ba2d-ac2844753b0d)
+
+![4](https://github.com/user-attachments/assets/d3154710-4337-42fb-98cf-a0710802f9fa)
+
+![hover](https://github.com/user-attachments/assets/6fd0a689-a870-4d2c-9aa1-2b084aa1ef90)
+
+![mob1](https://github.com/user-attachments/assets/ed74d3d9-45a3-4215-b9ec-f60a4ca42a26)
+
+![mob2](https://github.com/user-attachments/assets/be8d4b02-f106-4f48-beb0-30fa3bcbda64)
 
 ### Links
 
