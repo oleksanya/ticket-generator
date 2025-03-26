@@ -55,8 +55,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://your-solution-url.com](https://www.frontendmentor.io/solutions/conference-ticket-generator-simple-app-with-html5-csstailwind-js-GjuPUu1Bsr))
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com](https://ticket-generator-coral-seven.vercel.app/))
 
 ## My process
 
